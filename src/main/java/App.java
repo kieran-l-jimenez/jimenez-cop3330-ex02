@@ -12,9 +12,9 @@ public class App
         Scanner in = new Scanner(System.in);
 
         System.out.print("What is the input string? ");
-        String name = in.nextLine();
+        String input = in.nextLine();
 
-        String output = name + " has " + name.length() + " characters.";
+        String output = input + " has " + input.length() + " characters.";
 
         System.out.println(output);
 
